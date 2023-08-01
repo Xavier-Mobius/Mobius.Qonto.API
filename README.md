@@ -6,6 +6,14 @@
 
 Wrapper of some Qonto API endpoints in C#
 
+## Installation 
+
+```
+Install-Package Mobius.Qonto.API
+```
+
+Nuget package: https://www.nuget.org/packages/Mobius.Qonto.API/
+
 ## Quick Links
 
 Quonto API: https://api-doc.qonto.com/
