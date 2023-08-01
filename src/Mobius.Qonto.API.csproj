@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Mobius.Qonto.API</PackageId>
+    <Authors>Xavier</Authors>
+    <Company>Mobius</Company>
+    <Description>Wrapper of some Qonto API endpoints in C#.</Description>
+    <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Xavier-Mobius/Qonto.API</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Xavier-Mobius/Qonto.API</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>Wrapper API Qonto C# .NET</PackageTags>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+	
+</Project>
