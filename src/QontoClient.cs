@@ -75,7 +75,8 @@ public class QontoClient : IDisposable
                 $"&current_page={currentPage}" +
                 $"&updated_at_from={since:o}" + // NOTE: Format is 2021-03-03T16:06:38.000Z
                 "&with_attachments=true" +
-                "&includes[]=attachments", cancellationToken);
+                "&includes[]=attachments" +
+                "&status[]=completed&status[]=declined&status[]=pending", cancellationToken);
 #pragma warning restore CS8602 // Incorrect nullable flow analysis for indirect null check.
 
             var transactions = await JsonSerializer.DeserializeAsync<TransactionsQuery>(stream, cancellationToken: cancellationToken);
